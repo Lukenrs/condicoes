@@ -22,13 +22,13 @@ if((aniversario=="janeiro") || (aniversario=="dezembro")){
 else{
     console.log("Você não faz aniversário em janeiro, nem dezembro")
 }
-if(nome[0]=="R"){
+if(nome.substring(0,1)=="R"){
     console.log("Parabéns, seu nome começa com R")
 }
 else{
     console.log("Seu nome não começa com 'R', amigão")
 }
-if(nome[0]=="E" || sobrenome.length==6){
+if(nome.substring(0,1)=="E" || sobrenome.length==6){
     console.log("Quer um suquinho? hmmmmmmm")
 }
 else{
